@@ -49,7 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 html, body {
@@ -70,7 +70,7 @@ p {
 header {
     display: flex;
     width: 800px;
-    margin: 0 auto;
+    margin: 15px auto;
 }
 
 header .logo {
@@ -86,7 +86,13 @@ header nav {
 
 header nav a {
     text-decoration: none;
+    color: black;
+}
 
+.banner {
+    margin: 20px auto;
+    width: 800px;
+    margin-top: 30px;
 }
 
 .container {
