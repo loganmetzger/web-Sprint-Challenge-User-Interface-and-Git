@@ -224,7 +224,7 @@ footer nav a {
     width: 800px;
     margin: 0 auto;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .about-top {
@@ -242,4 +242,35 @@ footer nav a {
 .about-top p {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+/* About Flexbox Styling */
+
+.about-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-flex .about-box {
+    width: 370px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 45px;
+}
+
+.about-flex .about-box a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 12px;
+    display: block;
+    width: 130px;
+    margin: 20px 0;
+}
+
+.together {
+    width: 750px;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
