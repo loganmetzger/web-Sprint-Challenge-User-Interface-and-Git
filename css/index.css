@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 html, body {
@@ -64,6 +65,36 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+/* Header Styling */
+
+header {
+    display: flex;
+    width: 800px;
+    margin: 15px auto;
+}
+
+header .logo {
+    width: 200px;
+}
+
+header nav {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    margin: 20px auto;
+    width: 800px;
+    margin-top: 30px;
 }
 
 .container {
@@ -112,6 +143,48 @@ p {
     justify-content: center;
 }
 
+/* Box Color Styling */
+
+.middle-content .boxes .box:nth-child(1) {
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +216,61 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page Styling */
+
+.about-banner {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.about-top {
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+
+.about-top h2 {
+    margin-left: 10px;
+}
+
+.about-top p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* About Flexbox Styling */
+
+.about-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-flex .about-box {
+    width: 370px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 45px;
+}
+
+.about-flex .about-box a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 12px;
+    display: block;
+    width: 130px;
+    margin: 20px 0;
+}
+
+.together {
+    width: 750px;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
